@@ -138,6 +138,10 @@ nav div {
 .section1 {
   display: flex;
 }
+.section1-img img {
+  height: 300px;
+  width: 300px;
+}
 .section1-content {
   padding-right: 35px;
   width: 50%;
