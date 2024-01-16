@@ -10,6 +10,10 @@
 .orange-color {
   color: #ff5400;
 }
+.orange-bg {
+  background: #ff5400;
+  text-align: center;
+}
 .content {
   width: 81.25%;
   margin: 50px auto;
@@ -122,6 +126,10 @@ nav div {
   height: 45px;
   padding: 10px;
 }
+.input-container .bg-orange {
+  background: #ff5400;
+  color: #fff;
+}
 
 /* main section styles  */
 
@@ -131,7 +139,7 @@ nav div {
 }
 .section1-content {
   padding-right: 35px;
-  /* width: 50%; */
+  width: 50%;
 }
 .section1-title {
   text-align: left;
@@ -195,6 +203,55 @@ nav div {
 .section4 {
   display: flex;
 }
+
+/* section 5 style  */
+.section5 {
+  display: flex;
+  gap: 24px;
+}
+.section5-content {
+  border: 1px solid #ff5400;
+}
+
+.section5-content-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.section5 input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.Newsletter-form {
+  /* display: block;
+  color: #757575;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 18px 35px;
+  width: 100%;
+  border: 0; */
+  color: rgba(19, 19, 24, 0.3);
+  font-weight: 400;
+}
+/* .section5-img {
+  background-image: url("/Images/Rectangle\ 8\ \(1\).png");
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  height: 30rem;
+} */
+.section5-card {
+  border-radius: 16px;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  position: relative;
+  left: 335px;
+  bottom: 175px;
+}
+
 /* footer section style  */
 footer {
   background: rgba(19, 19, 24, 0.05);
@@ -213,12 +270,12 @@ footer hr {
   /* margin: 50px 200px; */
 }
 .footer-icon {
-  /* display: flex; */
+  display: flex;
   gap: 20px;
 }
 .footer-copyright {
   text-align: center;
-  margin-bottom: 110px;
+  margin-bottom: 10px;
 }
 
 /* responsive style  */
@@ -227,7 +284,12 @@ footer hr {
 @media screen and (max-width: 600px) {
   nav,
   nav ul,
-  .input-container {
+  .input-container,
+  .section2-image-container,
+  .section2-image-container div,
+  .two-card,
+  .section4,
+  .section5 {
     flex-direction: column;
   }
   nav,
