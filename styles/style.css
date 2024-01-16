@@ -1,0 +1,159 @@
+/* google font mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+
+/* shared styles  */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+.orange-color {
+  color: #ff5400;
+}
+.content {
+  width: 81.25%;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.section-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-weight: 400;
+}
+
+/* header section styles  */
+header {
+  max-width: 1440px;
+  max-height: 600px;
+}
+nav img {
+  width: 48px;
+  height: 56.008px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: #424247;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+nav > ul > li {
+  list-style-type: none;
+}
+nav ul,
+nav div {
+  display: flex;
+}
+
+/* banner section style  */
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-desc {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 100px;
+}
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner-img.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  margin: 30px auto;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin: 30px auto;
+}
+.box {
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-weight: 400;
+  width: 160px;
+  height: 45px;
+  padding: 10px;
+}
+
+/* main section styles  */
+
+/* section1 styles */
+.section1 {
+  display: flex;
+}
+.section1-content {
+  padding-right: 35px;
+  width: 50%;
+}
+.section1-title {
+  text-align: left;
+}
+.section1 .section-description {
+  text-align: left;
+}
+
+/* footer section style  */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  max-width: 1440px;
+  height: 1vh;
+}
+footer hr {
+  background: rgba(19, 19, 24, 0.1);
+  margin: 50px 200px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 50px 200px; */
+}
+.footer-copyright {
+  text-align: center;
+  margin-bottom: 110px;
+}
