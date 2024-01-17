@@ -29,7 +29,7 @@
           <li><a href="">Contact</a></li>
         </ul>
       </nav>
-      <div class="banner content">
+      <div class="banner-section content">
         <div class="banner-content">
           <h2 class="banner-title">Explore Your Travel</h2>
           <p class="banner-desc">
@@ -40,11 +40,9 @@
 
         <div class="input-container">
           <div class="box">Where go</div>
+          <div class="box">When <img src="Images/Frame.png" alt="" /></div>
           <div class="box">
-            When<i class="fa-solid fa-circle-chevron-down"></i>
-          </div>
-          <div class="box">
-            Select Type<i class="fa-solid fa-circle-chevron-down"></i>
+            Select Type <img src="Images/Frame.png" alt="" />
           </div>
           <div class="box bg-orange">
             <i class="fa-solid fa-magnifying-glass"></i>Find Now
@@ -52,7 +50,9 @@
         </div>
       </div>
     </header>
+
     <main>
+      <!-- section 1  -->
       <section class="section1 content">
         <div class="section1-content">
           <h3 class="section1-title section-title">Our Popular Tours</h3>
@@ -84,7 +84,7 @@
         </div>
         <div class="section1-img">
           <img src="Images/Rectangle 4.png" alt="" />
-        </disection1-img>
+        </div>
       </section>
       <!-- section 2 -->
       <section class="section2 content">
@@ -96,44 +96,39 @@
           </p>
         </div>
         <div class="section2-image-container">
-          <div>
-            <!-- <img src="Images/Rectangle 5.png" alt="" />
-            <img src="Images/Rectangle 8.png" alt="" /> -->
-            <!-- <h3
-              style="
-                background-image: url('Images/Rectangle\ 5.png');
-                height: 400px;
-                width: 400px;
-              "
-            >
-            <h3
-              style="
-                background-image: url('Images/Rectangle\ 5.png');
-                height: 400px;
-                width: 400px;
-              "
-            >
-              ghkgjhkdsjgh
-            </h3> -->
-            <!-- <h3 style="
-            background-image: url('Images/Rectangle\ 8.png');
-            height: 400px;
-            width: 400px;> hklflkghlfkghkh </h3>  -->
+          <div class="row1">
+            <div class="img1">
+              <h3 class="img-title">Maldives</h3>
+            </div>
+            <div class="img2">
+              <h3 class="img-title">Indonesia</h3>
+            </div>
           </div>
-          /*
-          <div>
-            <img src="Images/Rectangle 6.png" alt="" />
-            <img src="Images/Rectangle 7.png" alt="" />
-            <img src="Images/Rectangle 9.png" alt="" />
+
+          <div class="row2">
+            <div class="img3">
+              <h3 class="img-title">Srilanka</h3>
+            </div>
+            <div class="img4">
+              <h3 class="img-title">North America</h3>
+            </div>
+            <div class="img5">
+              <h3 class="img-title">Kashmir</h3>
+            </div>
           </div>
-          <div>
-            <img src="Images/Rectangle 11.png" alt="" />
-            <img src="Images/Rectangle 10.png" alt="" />
+          <div class="row3">
+            <div class="img6">
+              <h3 class="img-title">Bangladesh</h3>
+            </div>
+            <div class="img7">
+              <h3 class="img-title">Bandarban</h3>
+            </div>
           </div>
-          */
         </div>
       </section>
+
       <!-- section 3  -->
+
       <section class="section3 content">
         <h3 class="section-title">Why Choose Us</h3>
         <p class="section-description">
@@ -173,7 +168,7 @@
         </div>
       </section>
       <!-- section 4 -->
-      <!-- <section class="section4 content">
+      <section class="section4 content">
         <div class="section4-content">
           <h3 class="section-title">A Simple Perfect Place To Get Lost</h3>
           <p class="section-description">
@@ -194,8 +189,8 @@
         </div>
         <div class="section4-video">
           <iframe
-            width="640"
-            height="360"
+            width="610"
+            height="424"
             src="https://www.youtube.com/embed/Mf_nGEPIsQ8"
             title="Travel Agency Short Video Ad Sample - Video &amp; Animation Services, Video Experts"
             frameborder="0"
@@ -203,7 +198,7 @@
             allowfullscreen
           ></iframe>
         </div>
-      </section> -->
+      </section>
       <!-- section 5 -->
       <section class="section5 content">
         <div class="section5-content">
@@ -211,13 +206,13 @@
           <p class="section-description">
             Get your daily dose of travel news & tips. Sign up today!
           </p>
-          <hr />
-          <form action="" class="Newsletter-form">
-            <input type="text" placeholder="Enter Your Name" />
-            <input type="email" placeholder="Enter Your Email" />
-            <!-- <button>Subscribe</button> -->
-            <input type="button" value="Subscribe" />
-          </form>
+
+          <div class="Newsletter-form">
+            <input id="input" type="text" placeholder="Enter Your Name" />
+            <input id="input" type="email" placeholder="Enter Your Email" />
+
+            <input id="input" type="button" value="Subscribe" />
+          </div>
         </div>
 
         <div class="section5-img">
@@ -229,20 +224,23 @@
         </div>
       </section>
     </main>
+
     <footer>
       <div class="footer-content content">
-        <img src="Images/nav-icon.png" alt="" />
-        <h3 class="nav-title">Aj <span class="orange-color">Travel</span></h3>
-        <p class="footer-desc">
+        <div class="footer-logo">
+          <img src="Images/nav-icon.png" alt="" />
+          <h3 class="nav-title">Aj <span class="orange-color">Travel</span></h3>
+        </div>
+        <p class="section-description">
           Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae
           blandit orci potenti vulputate. Leo erat maecenas vitae elementum
           ultricies nullam.
         </p>
         <div class="footer-icon">
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-github"></i>
+          <i id="foot-icon" class="fa-brands fa-twitter"></i>
+          <i id="foot-icon" class="fa-brands fa-facebook-f"></i>
+          <i id="foot-icon" class="fa-brands fa-instagram"></i>
+          <i id="foot-icon" class="fa-brands fa-github"></i>
         </div>
       </div>
       <hr />
