@@ -52,9 +52,7 @@ body {
 
 header {
   max-width: 1440px;
-  max-height: 600px;
-  /* width: 1170px; */
-  /* height: 500px; */
+  /* max-height: 600px; */
 }
 
 .nav-logo {
@@ -159,7 +157,7 @@ nav div {
 
 .section1-content {
   width: 577px;
-  height: 466px;
+  /* height: 466px; */
 }
 
 .section1-title {
@@ -526,6 +524,7 @@ footer hr {
   .section2-image-container,
   .section2-image-container div,
   .two-card,
+  .section3,
   .section4,
   .section5,
   .row1,
@@ -565,21 +564,22 @@ footer hr {
   }
   /* main responsive style  */
   .content {
-    width: 335px;
-    height: 483px;
+    /* width: 335px; */
+    /* height: 483px; */
     margin: 10px;
     padding: 10px;
+    height: auto;
   }
 
   .section1 {
     flex-direction: column;
     padding: 10px;
   }
-  .section1-content {
+  /* .section1-content {
     width: 335px;
-  }
+  } */
 
-  .section1-img {
+  /* .section1-img {
     width: 100%;
-  }
+  } */
 }
